@@ -1,6 +1,6 @@
 package com.sunny.list;
 
-import com.sunny.exception.BoxIndexOutOfBoundsException;
+//import com.sunny.exception.BoxIndexOutOfBoundsException;
 
 import javax.sound.midi.Soundbank;
 
@@ -57,7 +57,7 @@ public class ArrayBox {
     private void rangeCheck(int index){
 
         if(0 > index || index >= size){
-            throw new BoxIndexOutOfBoundsException("index不合法");
+//            throw new BoxIndexOutOfBoundsException("index不合法");
         }
     }
 
