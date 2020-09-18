@@ -1,0 +1,20 @@
+		
+
+
+			集合
+	
+	Collection					     		Map
+	
+	List	     Set		Queue				key无序无重复 value无序可重复		
+	有序可重复     无序不可重复	常用子类
+	ArrayList 线程不安全		LinkedList(同时也是List的子类)   
+	适用于遍历		ArrayDeque
+	Vector 线程安全
+	两者底层都是数组，前者扩容1.5，后者2.0
+	因此可以自定义容量，免去扩容过程，提高效率	
+	Stack继承自Vector，先进先出 	
+
+	LinkedList
+	List子类，同样有序可重复
+	底层使用双向链表
+	适合插入和删除，不适合遍历
