@@ -55,5 +55,15 @@ public class Stack$QueueLearn {
 
 
 
+        ArrayList<String> list = new ArrayList<>();
+        list.add("1");
+        list.add("9");
+        list.add("3");
+
+        Collections.sort(list);
+//        list.sort(list);
+
+        System.out.println(list);
+
     }
 }
